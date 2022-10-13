@@ -18,3 +18,5 @@ They require the person schema.
 
 ## What output do they return?
 They work as they should and put in new data, update, read, and delete.
+
+### ![UML](./lab18%20UML.png)
