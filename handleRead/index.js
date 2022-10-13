@@ -1,10 +1,6 @@
 // third party library
 const dynamoose = require('dynamoose');
-
-// to be continued (code locally, zip, and upload);
-
-// Create a Schema
-const peopleSchema = new dynamoose.Schema({
+const peopleSchema = new dynamoose.Schema({ // Create a Schema
   id: String,
   name: String,
   phone: String

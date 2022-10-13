@@ -23,3 +23,8 @@ Additionally, that file should have as it's first line, so that it'll run withou
 
 #!/usr/bin/env node
 
+{
+  "id": "4",
+  "name": "GiriGiri",
+  "phone": "111-111-1111"
+}
