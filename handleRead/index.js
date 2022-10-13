@@ -11,7 +11,7 @@ const peopleSchema = new dynamoose.Schema({
 });
 
 // Create a Model
-const peopleModel = dynamoose.model('people-model', peopleSchema);
+const peopleModel = dynamoose.model('jgs-lab18-people-dynamodb', peopleSchema);
 
 exports.handler = async (event) => {
   // TODO implement
