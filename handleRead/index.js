@@ -1,5 +1,3 @@
-'use strict';
-
 // third party library
 const dynamoose = require('dynamoose');
 
