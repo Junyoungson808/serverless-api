@@ -5,7 +5,7 @@ const dynamoose = require('dynamoose');
 const peopleSchema = new dynamoose.Schema({
   id: String,
   name: String,
-  phone: String
+  phone: String,
 });
 
 // Create a Model
@@ -15,13 +15,13 @@ console.log('asdfasdgasdfasd------------', event.body);
 let {id, name, phone} = event.queryStringParameters;
 
 let person = {id, name, phone};
-console.log('CREATE PLEASE***************', person)
+console.log('CREATE PLEASE***************', person);
 
 exports.handler = async (event) => {
   // TODO implement
   const response = {
     statusCode: 200,
-    body: JSON.stringify('Hello from handleCreate');
+    body: JSON.stringify('Hello from handleCreate!'),
   };
   return response;
 };
